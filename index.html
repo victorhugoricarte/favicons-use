@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="google-plus2.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/icons/google-plus2.svg" type="image/svg+xml">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Favicon</title>
+    <title>Utilização de Favicons</title>
 </head>
 <body>
-    <h1>Favicon</h1>
-    <p>Pequeno ícone que identifica um site, chamado de <strong>favicon</strong> ou <strong>shortcut icon</strong></p>
-    <p>&rarr; Adicionado dentro do &lt;head&gt; pelo elemento &lt;link&gt;</p>
-    <p>&rarr; O elemento &lt;link&gt; não tem fechamento, contém o atributo rel junto um parâmetro "shortcut icon"</p>
+    <h1>⭐ Utilização de Favicons</h1>
+    <h2>Pequeno ícone que identifica um site nas guias abertas no navegador, chamado de <strong>favicon</strong> ou <strong>shortcut icon (Favorite icon)</strong></h2>
+    <p>&rarr; Adicionado dentro do conteúdo do <code>&lt;head&gt;</code> pelo elemento <code>&lt;link&gt;</code></p>
+    <p>&rarr; A tag <code>&lt;link&gt;</code> não tem fechamento, para ser responsável por fazer a ligação entre referências de hipertexto, deve conter os seguintes atributos e parâmetros:</p>
+    <ol>
+        <li><code>rel = "shortcut icon"</code></li>
+        <li><code>href = "caminho/para/o/ícone"</code></li>
+        <li><code>type = "image/svg+xml"</code></li>
+        <ul>
+            <li>Aqui o atributo <code>type</code> é considerado de modo diferente do habitual, para a utilização do mecanismo MIME types;</li>
+            <li>Esse mecanismo é considerado uma das maneiras de transmitir informações do tipo de documento em questão, ou seja, a extensão do arquivo;</li>
+            <li>Nesse caso, o mecanismo está especificando que é uma imagem de extensão <code>.svg</code></li>
+        </ul>
+    </ol>
+
 </body>
 </html>
